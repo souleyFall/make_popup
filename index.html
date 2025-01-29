@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--vous insérerez votre code ici-->
+
+    <!--TEXTE PAR DEFAUT - A SUPPRIMER-->
+    <h1>Bienvenue dans le test de souley</h1>
+    <h3 style="color: --main-color;">LE POP-IN VA BIENTOT S'AFFICHER</h3>
+
+    <!--architecture du pop-in-->
+    <div id="overlay">
+        <div id="pop-in">
+            <div id="section-image">
+                <div id="bordure-left"></div>
+                <div id="image"></div>
+                <div id="bordure-right"></div>
+            </div>
+            <div id="card">
+                <div id="responsive_close">
+                    <button id="icon_close" onclick="close_overlay()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="contenu">
+                    <h4>VOUS HESITEZ ?</h4>
+                    <hr>
+                    <h2>Prenez rendez-vous<br>en magasin !</h2>
+                    <p>Nos conseillers vous guideront<br>dans votre projet</p>
+                    <button>JE PRENDS RDV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
