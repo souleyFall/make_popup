@@ -98,6 +98,7 @@ style contenu texte du pop-in
 p{
     line-height: 1.4;
     margin-bottom: 1.5em;
+    font-size: large;
 }
 
 h2{
@@ -114,10 +115,6 @@ hr{ /*barre horizontale*/
     border-top-color: var(--main-color);
     width: 3.5em;
     margin-left: 0;
-}
-
-p{
-    font-size: large;
 }
 
 /*
