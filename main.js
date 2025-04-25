@@ -4,7 +4,7 @@
 document.getElementById('overlay').style.display='none';
 
 /**
- * affiche le pop-in après 4 secondes de délai
+ * affiche le pop-in après 3 secondes de délai
  */
 setTimeout(() => {
     document.getElementById('overlay').style.display='flex';
